@@ -5,15 +5,18 @@
     <title>Hello World!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>System Information!</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <ul>
+      <li>Node.js <script>document.write(process.versions.node)</script></li>
+      <li>Chromium <script>document.write(process.versions.chrome)</script></li>
+      <li>and Electron <script>document.write(process.versions.electron)</script></li>
+    </ul>
 
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
     </script>
+    <div id="port-list"></div>
   </body>
 </html>

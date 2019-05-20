@@ -1,22 +1,27 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-serialport-quick-start",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application with node serialport",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "prepare": "electron-build-env npm rebuild"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/serialport/electron-serialport-quick-start",
   "keywords": [
     "Electron",
+    "serialport",
     "quick",
     "start",
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^5.0.0"
+  },
+  "dependencies": {
+    "electron-build-env": "^0.2.0",
+    "serialport": "^7.1.5"
   }
 }

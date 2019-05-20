@@ -1,6 +1,6 @@
-# electron-quick-start
+# electron-serialport-quick-start
 
-**Clone and run for a quick way to see Electron in action.**
+**Clone and run for a quick way to see Electron and Serialport in action.**
 
 This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
 
@@ -20,9 +20,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/serialport/electron-serialport-quick-start
 # Go into the repository
-cd electron-quick-start
+cd electron-serialport-quick-start
 # Install dependencies
 npm install
 # Run the app
