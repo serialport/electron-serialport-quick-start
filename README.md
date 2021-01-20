@@ -1,3 +1,7 @@
+# ARCHIVED
+
+Archiving this very outdated repo in favor of [serialport/electron-serialport](https://github.com/serialport/electron-serialport)
+
 # electron-serialport-quick-start
 
 **Clone and run for a quick way to see Electron and Serialport in action.**
